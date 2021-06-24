@@ -3,10 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
-.raw1 {
-    display: inline-block;
+.menu-prodotti{
     max-width: 900px;
+    position: relative;
     margin: 10px 100px;
+    
+}
+.raw1 {
+    /*display: inline-block;
+    max-width: 900px;
+    margin: 10px 100px;*/
     
 }
 /*caratteristiche foto*/
@@ -74,6 +80,7 @@ img {
 }
 .prezzoscontato {
     color: red;
+    font-weight: bold;
     margin-right: 4px;
     font-size: 11px;
 }
@@ -82,8 +89,33 @@ img {
     font-size: 11px;
 }
 /*secondo prodotto*/
-.secondoprodotto {
+.prodotto2 {
     display: inline-block;
     position: absolute;
-    z-index: 1;
+    top: 0;
+    left: 285px;
 }
+.secondoprodotto{
+    position: absolute;
+    top: 15px;
+    left: 285px;
+}
+/*terzo prodotto*/
+.prodotto3 {
+    display: inline-block;
+    position: absolute;
+    top:0;
+    left: 570px;
+}
+.terzoprodotto{
+    position: absolute;
+    top: 15px;
+    left: 570px;
+}
+/*seconda riga*/
+.raw2{
+    display: inline-block;
+    max-width: 900px;
+    margin: 0px;
+}
+
