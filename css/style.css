@@ -118,4 +118,28 @@ img {
     max-width: 900px;
     margin: 0px;
 }
+/*quinto prodotto*/
+.prodotto5 {
+    display: inline-block;
+    position: absolute;
+    top: 457px;
+    left: 285px;
+}
+.quintoprodotto{
+    position: absolute;
+    top: 475px;
+    left: 285px;
+}
+/*sesto prodotto*/
+.prodotto6 {
+    display: inline-block;
+    position: absolute;
+    top: 457px;
+    left: 570px;
+}
+.sestoprodotto {
+    position: absolute;
+    top: 475px;
+    left: 570px;
 
+}
