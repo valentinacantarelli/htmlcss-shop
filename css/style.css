@@ -3,16 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
-.raw {
+.raw1 {
     display: inline-block;
     max-width: 900px;
     margin: 10px 100px;
-    position: relative;
+    
 }
+/*caratteristiche foto*/
 img {
     display: inline-block;
     height: 400px;
-    position: relative;
+    position: absolute;
 }
 .foto1 {
     display: inline-block;
@@ -25,6 +26,7 @@ img {
 .foto1:hover +.foto1b {
     display: block;
 }
+/*caratteristiche etichette*/
 .etichetta {
     position: relative;
     padding: 5px;
@@ -55,11 +57,12 @@ img {
     margin-top: 10px;
     margin-left:260px;
 }
+/*info didascalia*/
 .info {
     display: block; 
     position: relative;
        
-}
+} 
 .infoprodotto {
     position: static;
     margin-top: 385px;
@@ -78,4 +81,9 @@ img {
     text-decoration: line-through;
     font-size: 11px;
 }
-
+/*secondo prodotto*/
+.secondoprodotto {
+    display: inline-block;
+    position: absolute;
+    z-index: 1;
+}
