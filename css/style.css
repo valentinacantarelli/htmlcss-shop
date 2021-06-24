@@ -25,3 +25,57 @@ img {
 .foto1:hover +.foto1b {
     display: block;
 }
+.etichetta {
+    position: relative;
+    padding: 5px;
+    z-index: 2;
+    color: white;
+    left: 7px;
+    top: 370px;
+    margin-right: 5px;
+    font-size: 13px;
+}
+.discount {
+    background-color: red;
+}
+.sostenibile {
+    background-color: green;
+}
+.heart {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    position: absolute;
+    height:25px ;
+    width:20px ;
+    z-index: 2;
+    font-size: 18px;
+    vertical-align: middle;
+    text-align: center;
+    margin-top: 10px;
+    margin-left:260px;
+}
+.info {
+    display: block; 
+    position: relative;
+       
+}
+.infoprodotto {
+    position: static;
+    margin-top: 385px;
+    line-height: 18px;
+    font-size: 13px;
+}
+.marca {
+    font-size: 11px ;
+}
+.prezzoscontato {
+    color: red;
+    margin-right: 4px;
+    font-size: 11px;
+}
+.prezzooriginale {
+    text-decoration: line-through;
+    font-size: 11px;
+}
+
